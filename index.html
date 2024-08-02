@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+    <header></header>    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Decodificador</title>
+        <link rel="stylesheet" href="./styles/style.css">
+    </head>
+
+    <body>
+        
+        <main class="container">
+            <section class="container__sec">
+                <img src="assets/Vector.png" alt="imagem do A de alura">
+                <h1 class="container__titulo">Decodificador de textos</h1>
+                <div class="container__input">
+                    <div class="input"><textarea id="input-texto" placeholder="Digite seu texto aqui..."></textarea></div>
+                    <p class="input__texto">ATENÇÃO: Apenas letras minúsculas e sem acentos!</p>
+                </div>
+                <div class="buttons">
+                    <div class="container__buttons">
+                        <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                        <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+                        
+                    </div>
+                </div>  
+            </section>
+          
+        <div id="output">
+            <img class="imagem1" src="./assets/High quality products 1 1.png" alt="homemComLupa">
+            <h2 class="imagem3">Nenhuma mensagem encontrada!</h2>
+            <span class="imagem2"><strong>Digite um texto que deseje criptografar ou descriptografar...</strong></span>
+            
+            
+        </div>
+        </main>
+        <footer class="rodape">
+            <div class="icones">
+                <a href="https://github.com/Joseph9598"><ion-icon name="logo-github"></ion-icon></a>
+            </div>
+            <h3>Developed by: José Augusto</h3>
+        </footer>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="./interação/app.js"></script>
+    </body>
+</html>
