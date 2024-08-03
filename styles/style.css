@@ -42,9 +42,10 @@ body{
     top: -450px;
 }
 #input-texto{
+    box-sizing: border-box;
     background: transparent;
-    max-width: 350px;
-    max-height: 250px;
+    max-width: 250px;
+    max-height: 100px;
     font-size: var(--fonte--paragrafo);
     font-family: var(--fonte-familia);
     box-shadow: none;
@@ -110,7 +111,8 @@ body{
     
 }
 .rodape{
-    background: transparent;
+    box-sizing: border-box;
+    background:transparent;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -120,7 +122,6 @@ body{
 .icons ion-icon{
     width: 25px;
     height: 25px;
-    color: #D8DFE8;
 }
 .icons ion-icon:hover{
     color: var(--cor--principal);
