@@ -34,10 +34,4 @@ O decodificador funciona da seguinte maneira:
 3. Insira a mensagem no campo de texto.
 4. Clique em "Codificar" para transformar a mensagem ou "Decodificar" para revertê-la.
 
-## Contribuições
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma _issue_ ou enviar um _pull request_.
-
-## Licença
-
-Este projeto é distribuído sob a licença MIT. Consulte o arquivo `LICENSE` para obter mais informações.
