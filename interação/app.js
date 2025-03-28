@@ -11,7 +11,11 @@ function criptografar(){
 function descriptografar(){
     var texto=textInput.value;
 
-    var resultDescripto = texto.replace(/enter/g, "e").replace(/imes/g, "i").replace(/ai/g, "a").replace(/ober/g, "o").replace(/ufa/g, "u")
+    var resultDescripto = texto.replace(/ufat/g, "u")  // Primeiro os maiores
+                               .replace(/ober/g, "o")
+                               .replace(/imes/g, "i")
+                               .replace(/enter/g, "e")
+                               .replace(/ai/g, "a")
 
     document.getElementById('output').innerHTML = `<textarea readonly id="input-texto">${resultDescripto}</textarea><button class="btn__copiar" id="copiar" onclick="copiar()">copiar</button>`
 }
