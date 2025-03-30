@@ -1,5 +1,7 @@
 # Decodificador de Mensagens
 
+*Antes de tudo, este projeto foi feito pensando apenas na responsividade de uma tela de pc, conforme exigências acadêmicas!
+
 Este é um simples decodificador de mensagens criado com HTML, CSS e JavaScript. O objetivo deste programa é substituir letras específicas por palavras conforme as seguintes regras:
 
 - A letra **"e"** é convertida para **"enter"**
